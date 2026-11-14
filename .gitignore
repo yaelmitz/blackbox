@@ -1,0 +1,30 @@
+# dependencies and builds
+node_modules/
+dist/
+*.tsbuildinfo
+
+# secrets and local settings (copy tahkirim-api/.env.example to .env)
+.env
+.env.*
+!.env.example
+.claude/
+
+# local data: the database, its backups and uploaded files
+tahkirim-api/data/
+tahkirim-api/uploads/
+*.sqlite
+
+# screenshots, design drafts and the zip export
+צילומי-מסך/
+png/
+png-blackbox/
+black-box.html
+crime-tape.html
+*.zip
+
+# OS / editor
+.DS_Store
+Thumbs.db
+.vscode/
+.idea/
+*.log
